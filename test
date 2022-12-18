@@ -1,0 +1,875 @@
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+rb
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+pb
+pb
+ra
+pa
+rra
+pa
+total_count : 20
+--------stack_a-------------
+0 : [index : 12]
+1 : [index : 15]
+2 : [index : 16]
+--------stack_b-------------
+0 : [index : 17]
+1 : [index : 14]
+2 : [index : 13]
+3 : [index : 18]
+4 : [index : 19]
+5 : [index : 6]
+6 : [index : 9]
+7 : [index : 8]
+8 : [index : 7]
+9 : [index : 11]
+10 : [index : 10]
+11 : [index : 0]
+12 : [index : 4]
+13 : [index : 5]
+14 : [index : 2]
+15 : [index : 1]
+16 : [index : 3]
+in cal_info, index : 17, counter_between : 0, r_a : 0, r_b : 0
+min : 17, 0, 0
+in cal_info, index : 14, counter_between : 0, r_a : 1, r_b : 1
+result : 14, 1, 1
+in cal_info, index : 13, counter_between : 0, r_a : 1, r_b : 2
+result : 13, 1, 2
+in cal_info, index : 18, counter_between : 0, r_a : 0, r_b : 3
+result : 18, 0, 3
+in cal_info, index : 19, counter_between : 0, r_a : 0, r_b : 4
+result : 19, 0, 4
+in cal_info, index : 6, counter_between : 0, r_a : 0, r_b : 5
+result : 6, 0, 5
+in cal_info, index : 9, counter_between : 0, r_a : 0, r_b : 6
+result : 9, 0, 6
+in cal_info, index : 8, counter_between : 0, r_a : 0, r_b : 7
+result : 8, 0, 7
+in cal_info, index : 7, counter_between : 0, r_a : 0, r_b : 8
+result : 7, 0, 8
+in cal_info, index : 11, counter_between : 0, r_a : 0, r_b : -8
+result : 11, 0, -8
+in cal_info, index : 10, counter_between : 0, r_a : 0, r_b : -7
+result : 10, 0, -7
+in cal_info, index : 0, counter_between : 0, r_a : 0, r_b : -6
+result : 0, 0, -6
+in cal_info, index : 4, counter_between : 0, r_a : 0, r_b : -5
+result : 4, 0, -5
+in cal_info, index : 5, counter_between : 0, r_a : 0, r_b : -4
+result : 5, 0, -4
+in cal_info, index : 2, counter_between : 0, r_a : 0, r_b : -3
+result : 2, 0, -3
+in cal_info, index : 1, counter_between : 0, r_a : 0, r_b : -2
+result : 1, 0, -2
+in cal_info, index : 3, counter_between : 0, r_a : 0, r_b : -1
+result : 3, 0, -1
+best : 0, 0, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 17]
+1 : [index : 12]
+2 : [index : 15]
+3 : [index : 16]
+--------stack_b-------------
+0 : [index : 14]
+1 : [index : 13]
+2 : [index : 18]
+3 : [index : 19]
+4 : [index : 6]
+5 : [index : 9]
+6 : [index : 8]
+7 : [index : 7]
+8 : [index : 11]
+9 : [index : 10]
+10 : [index : 0]
+11 : [index : 4]
+12 : [index : 5]
+13 : [index : 2]
+14 : [index : 1]
+15 : [index : 3]
+in cal_info, index : 14, counter_between : 1, r_a : -1, r_b : 0
+min : 14, -1, 0
+in cal_info, index : 13, counter_between : 1, r_a : -1, r_b : 1
+result : 13, -1, 1
+in cal_info, index : 18, counter_between : 1, r_a : -1, r_b : 2
+result : 18, -1, 2
+in cal_info, index : 19, counter_between : 1, r_a : -1, r_b : 3
+result : 19, -1, 3
+in cal_info, index : 6, counter_between : 1, r_a : -1, r_b : 4
+result : 6, -1, 4
+in cal_info, index : 9, counter_between : 1, r_a : -1, r_b : 5
+result : 9, -1, 5
+in cal_info, index : 8, counter_between : 1, r_a : -1, r_b : 6
+result : 8, -1, 6
+in cal_info, index : 7, counter_between : 1, r_a : -1, r_b : 7
+result : 7, -1, 7
+in cal_info, index : 11, counter_between : 1, r_a : -1, r_b : 8
+result : 11, -1, 8
+in cal_info, index : 10, counter_between : 1, r_a : -1, r_b : -7
+result : 10, -1, -7
+in cal_info, index : 0, counter_between : 1, r_a : -1, r_b : -6
+result : 0, -1, -6
+in cal_info, index : 4, counter_between : 1, r_a : -1, r_b : -5
+result : 4, -1, -5
+in cal_info, index : 5, counter_between : 1, r_a : -1, r_b : -4
+result : 5, -1, -4
+in cal_info, index : 2, counter_between : 1, r_a : -1, r_b : -3
+result : 2, -1, -3
+in cal_info, index : 1, counter_between : 1, r_a : -1, r_b : -2
+result : 1, -1, -2
+in cal_info, index : 3, counter_between : 1, r_a : -1, r_b : -1
+result : 3, -1, -1
+best : 0, -1, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 14]
+1 : [index : 16]
+2 : [index : 17]
+3 : [index : 12]
+4 : [index : 15]
+--------stack_b-------------
+0 : [index : 13]
+1 : [index : 18]
+2 : [index : 19]
+3 : [index : 6]
+4 : [index : 9]
+5 : [index : 8]
+6 : [index : 7]
+7 : [index : 11]
+8 : [index : 10]
+9 : [index : 0]
+10 : [index : 4]
+11 : [index : 5]
+12 : [index : 2]
+13 : [index : 1]
+14 : [index : 3]
+in cal_info, index : 13, counter_between : 2, r_a : -2, r_b : 0
+min : 13, -2, 0
+in cal_info, index : 18, counter_between : 2, r_a : -2, r_brra
+rra
+pa
+rra
+pa
+ : 1
+result : 18, -2, 1
+in cal_info, index : 19, counter_between : 2, r_a : -2, r_b : 2
+result : 19, -2, 2
+in cal_info, index : 6, counter_between : 2, r_a : -2, r_b : 3
+result : 6, -2, 3
+in cal_info, index : 9, counter_between : 2, r_a : -2, r_b : 4
+result : 9, -2, 4
+in cal_info, index : 8, counter_between : 2, r_a : -2, r_b : 5
+result : 8, -2, 5
+in cal_info, index : 7, counter_between : 2, r_a : -2, r_b : 6
+result : 7, -2, 6
+in cal_info, index : 11, counter_between : 2, r_a : -2, r_b : 7
+result : 11, -2, 7
+in cal_info, index : 10, counter_between : 2, r_a : -2, r_b : -7
+result : 10, -2, -7
+in cal_info, index : 0, counter_between : 2, r_a : -2, r_b : -6
+result : 0, -2, -6
+in cal_info, index : 4, counter_between : 2, r_a : -2, r_b : -5
+result : 4, -2, -5
+in cal_info, index : 5, counter_between : 2, r_a : -2, r_b : -4
+result : 5, -2, -4
+in cal_info, index : 2, counter_between : 2, r_a : -2, r_b : -3
+result : 2, -2, -3
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : -2
+result : 1, -2, -2
+in cal_info, index : 3, counter_between : 2, r_a : -2, r_b : -1
+result : 3, -2, -1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 13]
+1 : [index : 12]
+2 : [index : 15]
+3 : [index : 14]
+4 : [index : 16]
+5 : [index : 17]
+--------stack_b-------------
+0 : [index : 18]
+1 : [index : 19]
+2 : [index : 6]
+3 : [index : 9]
+4 : [index : 8]
+5 : [index : 7]
+6 : [index : 11]
+7 : [index : 10]
+8 : [index : 0]
+9 : [index : 4]
+10 : [index : 5]
+11 : [index : 2]
+12 : [index : 1]
+13 : [index : 3]
+in cal_info, index : 18, counter_between : 1, r_a : -1, r_b : 0
+min : 18, -1, 0
+in cal_info, index : 19, counter_between : 1, r_a : -1, r_b : 1
+result : 19, -1, 1
+in cal_info, index : 6, counter_between : 1, r_a : -1, r_b : 2
+result : 6, -1, 2
+in cal_info, index : 9, counter_between : 1, r_a : -1, r_b : 3
+result : 9, -1, 3
+in cal_info, index : 8, counter_between : 1, r_a : -1, r_b : 4
+result : 8, -1, 4
+in cal_info, index : 7, counter_between : 1, r_a : -1, r_b : 5
+result : 7, -1, 5
+in cal_info, index : 11, counter_between : 1, r_a : -1, r_b : 6
+result : 11, -1, 6
+in cal_info, index : 10, counter_between : 1, r_a : -1, r_b : 7
+result : 10, -1, 7
+in cal_info, index : 0, counter_between : 1, r_a : -1, r_b : -6
+result : 0, -1, -6
+in cal_info, index : 4, counter_between : 1, r_a : -1, r_b : -5
+result : 4, -1, -5
+in cal_info, index : 5, counter_between : 1, r_a : -1, r_b : -4
+result : 5, -1, -4
+in cal_info, index : 2, counter_between : 1, r_a : -1, r_b : -3
+result : 2, -1, -3
+in cal_info, index : 1, counter_between : 1, r_a : -1, r_b : -2
+result : 1, -1, -2
+in cal_info, index : 3, counter_between : 1, r_a : -1, r_b : -1
+result : 3, -1, -1
+best : 0, -1, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 18]
+1 : [index : 17]
+2 : [index : 13]
+3 : [index : 12]
+4 : [index : 15]
+5 : [index : 14]
+6 : [index : 16]
+--------stack_b-------------
+0 : [index : 19]
+1 : [index : 6]
+2 : [index : 9]
+3 : [index : 8]
+4 : [index : 7]
+5 : [index : 11]
+6 : [index : 10]
+7 : [index : 0]
+8 : [index : 4]
+9 : [index : 5]
+10 : [index : 2]
+11 : [index : 1]
+12 : [index : 3]
+in cal_info, index : 19, counter_between : 1, r_a : -1, r_b : 0
+min : 19, -1, 0
+in cal_info, index : 6, counter_between : 1, r_a : -1, r_b : 1
+result : 6, -1, 1
+in cal_info, index : 9, counter_between : 1, r_a : -1, r_b : 2
+result : 9, -1, 2
+in cal_info, index : 8, counter_between : 1, r_a : -1, r_b : 3
+result : 8, -1, 3
+in cal_info, index : 7, counter_between : 1, r_a : -1, r_b : 4
+result : 7, -1, 4
+in cal_info, index : 11, counter_between : 1, r_a : -1, r_b : 5
+result : 11, -1, 5
+in cal_info, index : 10, counter_between : 1, r_a : -1, r_b : 6
+result : 10, -1, 6
+in cal_info, index : 0, counter_between : 1, r_a : -1, r_b : -6
+result : 0, -1, -6
+in cal_info, index : 4, counter_between : 1, r_a : -1, r_b : -5
+result : 4, -1, -5
+in cal_info, index : 5, counter_between : 1, r_a : -1, r_b : -4
+result : 5, -1, -4
+in cal_info, index : 2, counter_between : 1, r_a : -1, r_b : -3
+result : 2, -1, -3
+in cal_info, index : 1, counter_between : 1, r_a : -1, r_b : -2
+result : 1, -1, -2
+in cal_infrra
+pa
+rra
+pa
+rra
+rra
+pa
+rra
+rra
+rra
+pa
+o, index : 3, counter_between : 1, r_a : -1, r_b : -1
+result : 3, -1, -1
+best : 0, -1, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 19]
+1 : [index : 16]
+2 : [index : 18]
+3 : [index : 17]
+4 : [index : 13]
+5 : [index : 12]
+6 : [index : 15]
+7 : [index : 14]
+--------stack_b-------------
+0 : [index : 6]
+1 : [index : 9]
+2 : [index : 8]
+3 : [index : 7]
+4 : [index : 11]
+5 : [index : 10]
+6 : [index : 0]
+7 : [index : 4]
+8 : [index : 5]
+9 : [index : 2]
+10 : [index : 1]
+11 : [index : 3]
+in cal_info, index : 6, counter_between : 1, r_a : -1, r_b : 0
+min : 6, -1, 0
+in cal_info, index : 9, counter_between : 1, r_a : -1, r_b : 1
+result : 9, -1, 1
+in cal_info, index : 8, counter_between : 1, r_a : -1, r_b : 2
+result : 8, -1, 2
+in cal_info, index : 7, counter_between : 1, r_a : -1, r_b : 3
+result : 7, -1, 3
+in cal_info, index : 11, counter_between : 1, r_a : -1, r_b : 4
+result : 11, -1, 4
+in cal_info, index : 10, counter_between : 1, r_a : -1, r_b : 5
+result : 10, -1, 5
+in cal_info, index : 0, counter_between : 1, r_a : -1, r_b : 6
+result : 0, -1, 6
+in cal_info, index : 4, counter_between : 1, r_a : -1, r_b : -5
+result : 4, -1, -5
+in cal_info, index : 5, counter_between : 1, r_a : -1, r_b : -4
+result : 5, -1, -4
+in cal_info, index : 2, counter_between : 1, r_a : -1, r_b : -3
+result : 2, -1, -3
+in cal_info, index : 1, counter_between : 1, r_a : -1, r_b : -2
+result : 1, -1, -2
+in cal_info, index : 3, counter_between : 1, r_a : -1, r_b : -1
+result : 3, -1, -1
+best : 0, -1, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 6]
+1 : [index : 14]
+2 : [index : 19]
+3 : [index : 16]
+4 : [index : 18]
+5 : [index : 17]
+6 : [index : 13]
+7 : [index : 12]
+8 : [index : 15]
+--------stack_b-------------
+0 : [index : 9]
+1 : [index : 8]
+2 : [index : 7]
+3 : [index : 11]
+4 : [index : 10]
+5 : [index : 0]
+6 : [index : 4]
+7 : [index : 5]
+8 : [index : 2]
+9 : [index : 1]
+10 : [index : 3]
+in cal_info, index : 9, counter_between : 3, r_a : -2, r_b : 0
+min : 9, -2, 0
+in cal_info, index : 8, counter_between : 3, r_a : -2, r_b : 1
+result : 8, -2, 1
+in cal_info, index : 7, counter_between : 3, r_a : -2, r_b : 2
+result : 7, -2, 2
+in cal_info, index : 11, counter_between : 3, r_a : -2, r_b : 3
+result : 11, -2, 3
+in cal_info, index : 10, counter_between : 3, r_a : -2, r_b : 4
+result : 10, -2, 4
+in cal_info, index : 0, counter_between : 3, r_a : -3, r_b : 5
+result : 0, -3, 5
+in cal_info, index : 4, counter_between : 3, r_a : -3, r_b : -5
+result : 4, -3, -5
+in cal_info, index : 5, counter_between : 3, r_a : -3, r_b : -4
+result : 5, -3, -4
+in cal_info, index : 2, counter_between : 3, r_a : -3, r_b : -3
+result : 2, -3, -3
+in cal_info, index : 1, counter_between : 3, r_a : -3, r_b : -2
+result : 1, -3, -2
+in cal_info, index : 3, counter_between : 3, r_a : -3, r_b : -1
+result : 3, -3, -1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 9]
+1 : [index : 12]
+2 : [index : 15]
+3 : [index : 6]
+4 : [index : 14]
+5 : [index : 19]
+6 : [index : 16]
+7 : [index : 18]
+8 : [index : 17]
+9 : [index : 13]
+--------stack_b-------------
+0 : [index : 8]
+1 : [index : 7]
+2 : [index : 11]
+3 : [index : 10]
+4 : [index : 0]
+5 : [index : 4]
+6 : [index : 5]
+7 : [index : 2]
+8 : [index : 1]
+9 : [index : 3]
+in cal_info, index : 8, counter_between : 3, r_a : -3, r_b : 0
+min : 8, -3, 0
+in cal_info, index : 7, counter_between : 3, r_a : -3, r_b : 1
+result : 7, -3, 1
+in cal_info, index : 11, counter_between : 3, r_a : -2, r_b : 2
+result : 11, -2, 2
+in cal_info, index : 10, counter_between : 3, r_a : -2, r_b : 3
+result : 10, -2, 3
+in cal_info, index : 0, counter_between : 3, r_a : -3, r_b : 4
+result : 0, -3, 4
+in cal_info, index : 4, counter_between : 3, r_a : -3, r_b : 5
+result : 4, -3, 5
+in cal_info, index : 5, counter_between : 3, r_a : -3, r_b : -4
+result : 5, -3, -4
+in cal_info, index : 2, counter_between : 3, r_a : -3, r_b : -3
+result : 2, -3, -3
+in cal_info, index : 1, counter_between : 3, r_a : -3, r_b : -2
+result : 1, -3, -2
+in cal_info, index : 3, counter_between : 3, r_a : -3, r_b : -1
+result : 3, -3, -1
+best : 0, -3, 0
+
+
+
+-------------
+
+
+--------stacrra
+rra
+pa
+rra
+pa
+rra
+rra
+pa
+k_a-------------
+0 : [index : 8]
+1 : [index : 18]
+2 : [index : 17]
+3 : [index : 13]
+4 : [index : 9]
+5 : [index : 12]
+6 : [index : 15]
+7 : [index : 6]
+8 : [index : 14]
+9 : [index : 19]
+10 : [index : 16]
+--------stack_b-------------
+0 : [index : 7]
+1 : [index : 11]
+2 : [index : 10]
+3 : [index : 0]
+4 : [index : 4]
+5 : [index : 5]
+6 : [index : 2]
+7 : [index : 1]
+8 : [index : 3]
+in cal_info, index : 7, counter_between : 2, r_a : -2, r_b : 0
+min : 7, -2, 0
+in cal_info, index : 11, counter_between : 2, r_a : -1, r_b : 1
+result : 11, -1, 1
+in cal_info, index : 10, counter_between : 2, r_a : -1, r_b : 2
+result : 10, -1, 2
+in cal_info, index : 0, counter_between : 2, r_a : -2, r_b : 3
+result : 0, -2, 3
+in cal_info, index : 4, counter_between : 2, r_a : -2, r_b : 4
+result : 4, -2, 4
+in cal_info, index : 5, counter_between : 2, r_a : -2, r_b : -4
+result : 5, -2, -4
+in cal_info, index : 2, counter_between : 2, r_a : -2, r_b : -3
+result : 2, -2, -3
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : -2
+result : 1, -2, -2
+in cal_info, index : 3, counter_between : 2, r_a : -2, r_b : -1
+result : 3, -2, -1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 7]
+1 : [index : 19]
+2 : [index : 16]
+3 : [index : 8]
+4 : [index : 18]
+5 : [index : 17]
+6 : [index : 13]
+7 : [index : 9]
+8 : [index : 12]
+9 : [index : 15]
+10 : [index : 6]
+11 : [index : 14]
+--------stack_b-------------
+0 : [index : 11]
+1 : [index : 10]
+2 : [index : 0]
+3 : [index : 4]
+4 : [index : 5]
+5 : [index : 2]
+6 : [index : 1]
+7 : [index : 3]
+in cal_info, index : 11, counter_between : 2, r_a : -1, r_b : 0
+min : 11, -1, 0
+in cal_info, index : 10, counter_between : 2, r_a : -1, r_b : 1
+result : 10, -1, 1
+in cal_info, index : 0, counter_between : 2, r_a : -2, r_b : 2
+result : 0, -2, 2
+in cal_info, index : 4, counter_between : 2, r_a : -2, r_b : 3
+result : 4, -2, 3
+in cal_info, index : 5, counter_between : 2, r_a : -2, r_b : 4
+result : 5, -2, 4
+in cal_info, index : 2, counter_between : 2, r_a : -2, r_b : -3
+result : 2, -2, -3
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : -2
+result : 1, -2, -2
+in cal_info, index : 3, counter_between : 2, r_a : -2, r_b : -1
+result : 3, -2, -1
+best : 0, -1, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 11]
+1 : [index : 14]
+2 : [index : 7]
+3 : [index : 19]
+4 : [index : 16]
+5 : [index : 8]
+6 : [index : 18]
+7 : [index : 17]
+8 : [index : 13]
+9 : [index : 9]
+10 : [index : 12]
+11 : [index : 15]
+12 : [index : 6]
+--------stack_b-------------
+0 : [index : 10]
+1 : [index : 0]
+2 : [index : 4]
+3 : [index : 5]
+4 : [index : 2]
+5 : [index : 1]
+6 : [index : 3]
+in cal_info, index : 10, counter_between : 2, r_a : -2, r_b : 0
+min : 10, -2, 0
+in cal_info, index : 0, counter_between : 2, r_a : -2, r_b : 1
+result : 0, -2, 1
+in cal_info, index : 4, counter_between : 2, r_a : -2, r_b : 2
+result : 4, -2, 2
+in cal_info, index : 5, counter_between : 2, r_a : -2, r_b : 3
+result : 5, -2, 3
+in cal_info, index : 2, counter_between : 2, r_a : -2, r_b : -3
+result : 2, -2, -3
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : -2
+result : 1, -2, -2
+in cal_info, index : 3, counter_between : 2, r_a : -2, r_b : -1
+result : 3, -2, -1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 10]
+1 : [index : 15]
+2 : [index : 6]
+3 : [index : 11]
+4 : [index : 14]
+5 : [index : 7]
+6 : [index : 19]
+7 : [index : 16]
+8 : [index : 8]
+9 : [index : 18]
+10 : [index : 17]
+11 : [index : 13]
+12 : [index : 9]
+13 : [index : 12]
+--------stack_b-------------
+0 : [index : 0]
+1 : [index : 4]
+2 : [index : 5]
+3 : [index : 2]
+4 : [index : 1]
+5 : [index : 3]
+in cal_info, index : 0, counter_between : 2, r_a : -2, r_b : 0
+min : 0, -2, 0
+in cal_info, index : 4, counter_between : 2, r_a : -2, r_b : 1
+result : 4, -2, 1
+in cal_info, index : 5, counter_between : 2, r_a : -2, r_b : 2
+result : 5, -2, 2
+in cal_info, index : 2, counter_between : 2, r_a : -2, r_b : 3
+result : 2, -2, 3
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : -2
+result : 1, -2, -2
+in cal_info, index : 3, counter_between : 2, r_a : -2, r_b : -1
+result :rra
+rra
+pa
+rra
+rra
+pa
+rra
+pa
+rra
+rra
+pa
+rra
+rra
+pa
+rra
+rra
+pa
+ 3, -2, -1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 0]
+1 : [index : 9]
+2 : [index : 12]
+3 : [index : 10]
+4 : [index : 15]
+5 : [index : 6]
+6 : [index : 11]
+7 : [index : 14]
+8 : [index : 7]
+9 : [index : 19]
+10 : [index : 16]
+11 : [index : 8]
+12 : [index : 18]
+13 : [index : 17]
+14 : [index : 13]
+--------stack_b-------------
+0 : [index : 4]
+1 : [index : 5]
+2 : [index : 2]
+3 : [index : 1]
+4 : [index : 3]
+in cal_info, index : 4, counter_between : 3, r_a : -2, r_b : 0
+min : 4, -2, 0
+in cal_info, index : 5, counter_between : 3, r_a : -2, r_b : 1
+result : 5, -2, 1
+in cal_info, index : 2, counter_between : 3, r_a : -2, r_b : 2
+result : 2, -2, 2
+in cal_info, index : 1, counter_between : 3, r_a : -2, r_b : -2
+result : 1, -2, -2
+in cal_info, index : 3, counter_between : 3, r_a : -2, r_b : -1
+result : 3, -2, -1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 4]
+1 : [index : 17]
+2 : [index : 13]
+3 : [index : 0]
+4 : [index : 9]
+5 : [index : 12]
+6 : [index : 10]
+7 : [index : 15]
+8 : [index : 6]
+9 : [index : 11]
+10 : [index : 14]
+11 : [index : 7]
+12 : [index : 19]
+13 : [index : 16]
+14 : [index : 8]
+15 : [index : 18]
+--------stack_b-------------
+0 : [index : 5]
+1 : [index : 2]
+2 : [index : 1]
+3 : [index : 3]
+in cal_info, index : 5, counter_between : 2, r_a : -1, r_b : 0
+min : 5, -1, 0
+in cal_info, index : 2, counter_between : 2, r_a : -2, r_b : 1
+result : 2, -2, 1
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : 2
+result : 1, -2, 2
+in cal_info, index : 3, counter_between : 2, r_a : -2, r_b : -1
+result : 3, -2, -1
+best : 0, -1, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 5]
+1 : [index : 18]
+2 : [index : 4]
+3 : [index : 17]
+4 : [index : 13]
+5 : [index : 0]
+6 : [index : 9]
+7 : [index : 12]
+8 : [index : 10]
+9 : [index : 15]
+10 : [index : 6]
+11 : [index : 11]
+12 : [index : 14]
+13 : [index : 7]
+14 : [index : 19]
+15 : [index : 16]
+16 : [index : 8]
+--------stack_b-------------
+0 : [index : 2]
+1 : [index : 1]
+2 : [index : 3]
+in cal_info, index : 2, counter_between : 2, r_a : -2, r_b : 0
+min : 2, -2, 0
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : 1
+result : 1, -2, 1
+in cal_info, index : 3, counter_between : 2, r_a : -2, r_b : -1
+result : 3, -2, -1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 2]
+1 : [index : 16]
+2 : [index : 8]
+3 : [index : 5]
+4 : [index : 18]
+5 : [index : 4]
+6 : [index : 17]
+7 : [index : 13]
+8 : [index : 0]
+9 : [index : 9]
+10 : [index : 12]
+11 : [index : 10]
+12 : [index : 15]
+13 : [index : 6]
+14 : [index : 11]
+15 : [index : 14]
+16 : [index : 7]
+17 : [index : 19]
+--------stack_b-------------
+0 : [index : 1]
+1 : [index : 3]
+in cal_info, index : 1, counter_between : 2, r_a : -2, r_b : 0
+min : 1, -2, 0
+in cal_info, index : 3, counter_between : 2, r_a : -1, r_b : 1
+result : 3, -1, 1
+best : 0, -2, 0
+
+
+
+-------------
+
+
+--------stack_a-------------
+0 : [index : 1]
+1 : [index : 7]
+2 : [index : 19]
+3 : [index : 2]
+4 : [index : 16]
+5 : [index : 8]
+6 : [index : 5]
+7 : [index : 18]
+8 : [index : 4]
+9 : [index : 17]
+10 : [index : 13]
+11 : [index : 0]
+12 : [index : 9]
+13 : [index : 12]
+14 : [index : 10]
+15 : [index : 15]
+16 : [index : 6]
+17 : [index : 11]
+18 : [index : 14]
+--------stack_b-------------
+0 : [index : 3]
+in cal_info, index : 3, counter_between : 3, r_a : -2, r_b : 0
+min : 3, -2, 0
+best : 0, -2, 0
+
+
+
+-------------
+
+

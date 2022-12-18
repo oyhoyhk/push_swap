@@ -6,156 +6,102 @@
 /*   By: yooh <yooh@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 10:39:02 by yooh              #+#    #+#             */
-/*   Updated: 2022/12/15 18:19:38 by yooh             ###   ########.fr       */
+/*   Updated: 2022/12/18 09:55:09 by yooh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 static void	show_stack(t_stack *stack);
-int	index_of_the_best_node(t_stack *a, t_stack *b);
 void show(t_stack *a, t_stack *b);
 
-int get_count(int target_index, t_stack *stack)
+t_stack *get_tail(t_stack *a)
 {
-	int		i;
-
-	i = 0;
-	while (stack)
-	{
-		if (target_index < stack->index)
-			break;
-		i++;
-		stack = stack->next;
-	}
-	return (i);
+	if (a == NULL)
+		return (NULL);
+	while (a->next)
+		a = a->next;
+	return (a);
 }
 
-void	divide_stack_into_three_part(t_stack **a, t_stack **b)
+void	move_a_to_b(t_stack **a, t_stack **b, int total_count)
 {
-	int		total_count;
+	int		div;
 	int		i;
 
-	total_count = get_stack_length(*a);
+	div = total_count / 3;
 	i = 0;
-	while (i < total_count)
+	while (i <total_count)
 	{
-		if ((*a)->index < total_count / 3)
+		if ((*a)->index < div)
 		{
 			do_push(b, a, 'b');
 			do_rotate(b, 'b');
 		}
-		else if ((*a)->index < (total_count / 3) * 2)
+		else if ((*a)->index < div * 2)
 			do_push(b, a, 'b');
 		else
 			do_rotate(a, 'a');
 		i++;
 	}
-	while (*a)
+	i = get_stack_length(*a);
+	while (i > 3)
+	{
 		do_push(b, a, 'b');
+		i--;
+	}
+	sort_three(a);
 }
 
-int		cal_stack_position(t_stack *stack, t_info info)
+int	is_sort(t_stack *stack)
 {
-	int		i;
-
-	i = 0;
-	while (stack && stack->index < info.index)
+	while (stack->next)
 	{
-		i++;
+		if (stack->index > stack->next->index)
+			return (0);
 		stack = stack->next;
 	}
-	return (i);
+	return (1);
 }
 
-int		math_min(int a, int b)
+int	count_index(t_stack *a, int index)
 {
-	if (a > b)
-		return (a);
-	else
-		return (b);
-}
+	int		i;
+	int		a_len;
 
-void	get_greedy_info(t_stack *a, t_stack *b, t_info *info)
-{
-	int		a_length;
-	int		b_length;
-	t_stack	*cur;
-	int		a_count;
-	int		b_count;
-
-	a_length = get_stack_length(a);
-	b_length = get_stack_length(b);
-	cur = b;
-	while (cur)
+	i = 0;
+	a_len = get_stack_length(a);
+	while (a->index < index)
 	{
-		a_count = cal_stack_position(a, *info);
-		b_count = cal_stack_position(b, *info);
+		i++;
+		a = a->next;
 	}
+	if (i > a_len / 2)
+		i = (a_len - i) * (-1);
+	return (i);
 }
 
 int main(int argc, char **argv)
 {
 	static t_stack		*a;
 	static t_stack		*b;
-	int			total_count;
+	int					total_count;
 
 	set_stack(&a, &total_count, argc, argv);
 	set_index(a);
-	total_count = get_stack_length(a);
-	divide_stack_into_three_part(&a, &b);
+	move_a_to_b(&a, &b, total_count);
+
 	show(a, b);
+	t_stack *cur;
 
-
-	static t_info	info;
-	info.index = b->index;
-	t_stack	*cur;
 	cur = b;
+	int	position;
 	while (cur)
 	{
-		get_greedy_info(a, b, &info);
-	}
-}
-
-static int	count_stack_a(int target, t_stack *a)
-{
-	int		i;
-
-	if (a == NULL)
-		return (0);
-	i = 0;
-	while (a && a->index < target)
-	{
-		i++;
-		a = a->next;
-	}
-	return (i);
-}
-
-int	index_of_the_best_node(t_stack *a, t_stack *b)
-{
-	t_stack		*cur;
-	int			target;
-	int			min_count;
-	int			i;
-	int			count_a;
-
-	target = -1;
-	min_count = 2147483647;
-	cur = b;
-	i = 0;
-	while (cur)
-	{
-		count_a = count_stack_a(cur->index, a);
-		if (i * 2 + count_a < min_count)
-		{
-			min_count = i + count_a;
-			target = cur->index;
-		}
+		position = count_index(a, cur->index);
+		printf("position : %d\n", position);
 		cur = cur->next;
-		i++;
 	}
-	return (target);
 }
 
 static void	show_stack(t_stack *stack)

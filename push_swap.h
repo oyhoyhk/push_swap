@@ -6,12 +6,15 @@
 /*   By: yooh <yooh@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 10:39:40 by yooh              #+#    #+#             */
-/*   Updated: 2022/12/15 18:20:52 by yooh             ###   ########.fr       */
+/*   Updated: 2022/12/18 09:29:45 by yooh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
+
+# define TO_STACK_A	0
+# define TO_STACK_B	1
 
 #include "libft/libft.h"
 
@@ -26,9 +29,9 @@ typedef struct	s_stack
 
 typedef struct	s_info
 {
-	int		left;
-	int		right;
-	int		status;
+	int		a;
+	int		b;
+	int		after_a;
 	int		index;
 }	t_info;
 
@@ -42,7 +45,8 @@ void	do_rotate(t_stack **stack, char ch);
 void	do_switch(t_stack **stack, char ch);
 void	do_push(t_stack **in, t_stack **out, char ch);
 int		get_stack_length(t_stack *stack);
-void	divide_stack_into_three_part(t_stack **a, t_stack **b);
+void	sort_three(t_stack **a);
+void	do_best(t_stack **a, t_stack **b, t_info best);
 
 void	 show(t_stack *a, t_stack *b);
 
