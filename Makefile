@@ -7,16 +7,19 @@ NAME		=	push_swap
 
 CFLAGS		=	-Wall -Wextra -Werror 
 
-LIB_FLAGS	=	-L. -l $(LIBFT)
+LIB_FLAGS	=	-L . -l $(LIBFT)
 
-LIBFT		=	ft
+LIBFT		=ft
+LIBFT_DIR = libft
 
 all			:	$(NAME)
 
 clean		:
+				$(MAKE) -C $(LIBFT_DIR) clean
 				$(RM) $(OBJS)
 
 fclean		:	clean
+				$(MAKE) -C $(LIBFT_DIR) fclean
 				$(RM) $(NAME)
 
 re			:
@@ -24,7 +27,8 @@ re			:
 				$(MAKE)	all
 
 $(NAME)		:	$(OBJS)
-				$(CC) $(CFLAGS) $(LIB_FLAGS)  $^ -o $@
+				$(MAKE) -C $(LIBFT_DIR)
+				$(CC) $(CFLAGS) -L$(LIBFT_DIR) -l$(LIBFT) $^ -o $@
 
 bonus		:	$(NAME)
 
